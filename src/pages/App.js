@@ -5,7 +5,9 @@ import IconLabelButtons from '../components/core/Buttons'
 import InsightsDistrictCard from '../components/layouts/InsightsDistrictCard'
 import theme from '../theme/theme'
 import { ThemeProvider } from '@material-ui/styles';
-import LeftSideImages from '../pages/LeftSideImages'
+import LeftSideImage2 from '../pages/SideImageSetUp/LeftSideImages'
+import RightSideImage1 from '../pages/SideImageSetUp/RightSideImage1'
+
 
 function App() {
   return (
@@ -15,8 +17,8 @@ function App() {
           <InputFeildWithHeader/>
           <IconLabelButtons/>
           <InsightsDistrictCard/>
-          {/* </> */}
-          <LeftSideImages/>
+          <RightSideImage1/>
+          <LeftSideImage2/>
      </ThemeProvider>
     </div>
   );
