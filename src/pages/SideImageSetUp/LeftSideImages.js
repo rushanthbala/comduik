@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import LeftSideImage from '../../components/layouts/LeftSideImage';
 // import RightSideImage from '../../components/layouts/RightSideImage';
 import globalNetworkImage from '../../assets/images/chaptertwo.svg';
-// import logo from '../assets/logos/Logo.png';
-// import LoginForm from '../../../react-route-master/src/components/forms/LoginForm';
 import { withStyles } from '@material-ui/styles';
 
 const styles = (theme) => ({
@@ -23,20 +21,7 @@ const styles = (theme) => ({
 });
 
 class LeftSideImage1 extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      initialValues: {
-        email: '',
-        password: '',
-      },
-    };
-  }
-
   render() {
-    const { classes } = this.props;
-    const { initialValues } = this.state;
-
     return (
       <LeftSideImage
         image={globalNetworkImage}

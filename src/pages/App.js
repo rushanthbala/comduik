@@ -2,12 +2,12 @@ import React from 'react';
 import ButtonAppBar from '../components/navication/navication'
 import InputFeildWithHeader from '../components/navication/InputFeildWithHeader'
 import IconLabelButtons from '../components/core/Buttons'
-import InsightsDistrictCard from '../components/layouts/InsightsDistrictCard'
+// import InsightsDistrictCard from '../components/layouts/InsightsDistrictCard'
 import theme from '../theme/theme'
 import { ThemeProvider } from '@material-ui/styles';
 import LeftSideImage2 from '../pages/SideImageSetUp/LeftSideImages'
 import RightSideImage1 from '../pages/SideImageSetUp/RightSideImage1'
-
+import PaperSetup from '../pages/PaperIcon'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <ButtonAppBar/>
           <InputFeildWithHeader/>
           <IconLabelButtons/>
-          <InsightsDistrictCard/>
+          <PaperSetup/>
           <RightSideImage1/>
           <LeftSideImage2/>
      </ThemeProvider>
